@@ -1,7 +1,7 @@
 # my-code-library
 Just a small Library of frequently used functions/methods.
 
-## available functions
+## Available functions
 
 ### capitalizeFirstLetterOfTheWord
  Takes in a word and converts only the first letter to upper case
