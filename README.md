@@ -14,7 +14,7 @@ Just a small Library of frequently used functions/methods.
   capitalizedWord // Hello
 
   const anotherWord = capitalizeFirstLetterOfTheWord('WORLD');
-  anotherWord = // World
+  anotherWord // World
 
  ```
 
