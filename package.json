@@ -1,0 +1,24 @@
+{
+  "name": "my-code-library",
+  "version": "0.0.1",
+  "description": "A small library of handy and frequently used methods",
+  "main": "my-code-library.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashish-Krishna-K/my-code-library.git"
+  },
+  "author": "ashishkrishna096@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashish-Krishna-K/my-code-library/issues"
+  },
+  "homepage": "https://github.com/Ashish-Krishna-K/my-code-library#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
