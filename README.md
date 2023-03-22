@@ -1,7 +1,16 @@
 # my-code-library
 Just a small Library of frequently used functions/methods.
 
-## Available functions
+## Available functions:
+
+*[capitalizeFirstLetterOfTheWord](#capitalizefirstletteroftheword)
+*[generateRandomNumber](#generaterandomnumber)
+*[isAlpha](#isalpha)
+*[isSpace](#isspace)
+*[isNumber](#isnumber)
+*[isSymbol](#issymbol)
+
+___________________________________________________________________________________________________________
 
 ### capitalizeFirstLetterOfTheWord
  Takes in a word and converts only the first letter to upper case
