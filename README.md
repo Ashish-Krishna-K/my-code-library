@@ -3,12 +3,12 @@ Just a small Library of frequently used functions/methods.
 
 ## Available functions:
 
-*[capitalizeFirstLetterOfTheWord](#capitalizefirstletteroftheword)
-*[generateRandomNumber](#generaterandomnumber)
-*[isAlpha](#isalpha)
-*[isSpace](#isspace)
-*[isNumber](#isnumber)
-*[isSymbol](#issymbol)
+* [capitalizeFirstLetterOfTheWord](#capitalizefirstletteroftheword)
+* [generateRandomNumber](#generaterandomnumber)
+* [isAlpha](#isalpha)
+* [isSpace](#isspace)
+* [isNumber](#isnumber)
+* [isSymbol](#issymbol)
 
 ___________________________________________________________________________________________________________
 
