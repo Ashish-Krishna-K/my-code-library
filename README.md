@@ -4,7 +4,8 @@ Just a small Library of frequently used functions/methods.
 ## Available functions:
 
 * [capitalizeFirstLetterOfTheWord](#capitalizefirstletteroftheword)
-* [generateRandomNumber](#generaterandomnumber)
+* [randInt](#randInt)
+* [randChoice](#randChoice)
 * [isAlpha](#isalpha)
 * [isSpace](#isspace)
 * [isNumber](#isnumber)
@@ -18,8 +19,8 @@ ________________________________________________________________________________
  letter will be converted to lowercase!);
 
  **Example:**
- ```
-  const capitlaizedWord = capitalizeFirstLetterOfTheWord('hello');
+ ```typescript
+  const capitalizedWord = capitalizeFirstLetterOfTheWord('hello');
   capitalizedWord // Hello
 
   const anotherWord = capitalizeFirstLetterOfTheWord('WORLD');
@@ -27,21 +28,31 @@ ________________________________________________________________________________
 
  ```
 
-### generateRandomNumber
+### randInt
  Generates a random number between 0 and a number provided in input.
 
 **Example:**
- ```
-  const randomNumber = generateRandomNumber(25);
+ ```typescript
+  const randomNumber = randInt(25);
   randomNumber // 13
 
  ```
+
+### randChoice
+  Returns a random element from the provided array
+
+  **Example**
+  ```typescript
+  const randomElement = randChoice([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
+  randomElement // 6
+
+  ```
 
 ### isAlpha
 Accepts a single character as input, tests if the input character is an alphabet, ignoring case.
 
 **Example:**
-```
+```typescript
   const randomLetter = isAlpha('A');
   randomLetter // true
 
@@ -53,7 +64,7 @@ Accepts a single character as input, tests if the input character is an alphabet
 Accepts a single character as input, tests if the input character is whitespace.
 
 **Example:**
-```
+```typescript
   const aSpace = isAlpha(' ');
   aSpace // true
 
@@ -66,7 +77,7 @@ accepts a single character as input, tests if the input character is a number.
 This is useful for the case when input is a string with numbers in between.
 
 **Example:**
-```
+```typescript
   const randomNumber = isAlpha('7');
   randomNumber // true
 
@@ -78,7 +89,7 @@ This is useful for the case when input is a string with numbers in between.
 Accepts a single character as input, tests if the input character is a symbol.
 
 **Example:**
-```
+```typescript
   const symbol = isAlpha('$');
   symbol // true
 
