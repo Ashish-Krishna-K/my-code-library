@@ -1,11 +1,12 @@
 import {
   capitalizeFirstLetterOfTheWord,
-  generateRandomNumber,
+  randInt,
+  randChoice,
   isAlpha,
   isSpace,
   isNumber,
   isSymbol
-} from "./my-code-library";
+} from "../src/my-code-library";
 
 describe('testing the capitalize function', () => {
 
@@ -23,9 +24,9 @@ describe('testing the capitalize function', () => {
 
 describe('testing the random number function', () => {
 
-  const random1 = generateRandomNumber(5);
-  const random0To100 = generateRandomNumber(1000);
-  const randomNothing = generateRandomNumber();
+  const random1 = randInt(5);
+  const random0To100 = randInt(1000);
+  const randomNothing = randInt();
 
   it('generates a random number', () => {
     expect(typeof random1).toBe('number');
@@ -38,6 +39,15 @@ describe('testing the random number function', () => {
   it('generates a random number everytime', () => {
     expect(random1 !== random0To100 && random0To100 !== randomNothing && randomNothing !== random1).toBe(true);
   })
+})
+
+describe('testing the random choice function', () => {
+  const input = ['a', 'b', 'c', 'd', 'e'];
+
+  it('picks only items in the array', () => {
+    expect(input).toContain(randChoice(input))
+  });
+
 })
 
 describe('testing the isalpha function', () => {
